@@ -1,0 +1,91 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:#5B3758;
+}
+    .heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+h2
+{
+    color:white;
+    font-size: 40px;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+     text-decoration: underline;
+     position: absolute;
+     margin-top:2rem;
+}
+.clock
+{
+    margin: 14rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9627D;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    gap: 1.5rem;
+    font-size: 5rem;
+}
+.main
+{
+    margin-left: 32rem;
+    height: 100px;
+    width: 500px;
+    background-color:antiquewhite;
+}
+.hours
+{
+    height: 80px;
+    width: 80px;
+    background-color: azure;
+    margin-top:  0.5rem;
+    border-radius:0.2rem;
+    border: 2px solid black;
+}
+.minutes
+{
+    height: 80px;
+    width: 80px;
+    background-color: azure; 
+    margin-top:  0.5rem; 
+    border-radius:0.2rem;
+    border: 2px solid black;
+
+}
+.seconds
+{
+    height: 80px;
+    width: 80px;
+    background-color: azure;
+    margin-top:  0.5rem;
+    border-radius:0.2rem;
+    border: 2px solid black;
+
+}
+.set
+{
+    height: 40px;
+    width: px;
+    background-color: azure;
+    margin-top:  3rem;
+    font-size: 2rem;
+    border-radius:0.2rem;
+    border: 2px solid black;
+
+}
+footer
+{
+   margin-top: 19rem;
+   align-items: center;
+   text-align: center;
+   font-size: 2rem;
+   color: white;  
+}
